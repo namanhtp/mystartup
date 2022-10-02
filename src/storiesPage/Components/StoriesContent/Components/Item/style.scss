@@ -1,0 +1,40 @@
+.item{
+    background: #f5f5f5;
+    background-clip: padding-box;
+    padding: 45px;
+    padding-top: 60px;
+    position: relative;
+    height: 100%;
+    text-align: center;
+
+    &__avatar{
+        display: inline-block;
+        width: 80px;
+        object-fit: cover;
+        position: absolute;
+        left: 50%;
+        top: -40px;
+        margin-left: -40px;
+    }
+
+    i{
+        display: block;
+        text-align: left !important;
+        opacity: .3;
+    }
+
+    &__description{
+        font-weight: lighter;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        border-left: none;
+        margin: 20px;
+        margin-bottom: 30px;
+        font-weight: 300;
+        padding: 0;
+    }
+    span{
+        display: block;
+        font-size: 14px;
+    }
+}

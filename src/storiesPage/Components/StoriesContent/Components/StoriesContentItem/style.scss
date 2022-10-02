@@ -1,0 +1,61 @@
+.storiesContentItem{
+    margin-bottom: 90px;
+    &__top{
+        display: flex;
+        background: #159bc0;
+        color: #fff;
+        margin-bottom: 100px;
+    }
+
+    &__top--img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__top--img---wrapper{
+        width: 55%;
+    }
+
+    &__top--content{
+        width: 45%;
+
+    }
+
+    &__top--content--wrapper{
+        padding: 2rem 4rem;
+    }
+
+    &__top--img---wrapper{
+        position: relative;
+    }
+
+    &__top--mask{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(21,155,192,0.2);
+    }
+
+    &__top--content---title{
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    &__top--content---description{
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    &__bot{
+        display: flex;
+        gap: 24px;
+    }
+}

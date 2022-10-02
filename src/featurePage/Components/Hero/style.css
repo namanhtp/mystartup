@@ -1,0 +1,55 @@
+.hero {
+  position: relative;
+}
+.hero__container {
+  position: relative;
+}
+.hero__img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+}
+.hero__overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0));
+}
+.hero__content {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index: 6;
+  margin: 0 auto;
+}
+.hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 15px !important;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 667px;
+  margin: 0 auto;
+}
+.hero__description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px !important;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

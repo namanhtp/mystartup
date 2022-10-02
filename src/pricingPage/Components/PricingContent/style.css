@@ -1,0 +1,86 @@
+.pricingContent__container {
+  padding: 90px;
+  text-align: center;
+}
+.pricingContent__item--wrapper {
+  display: flex;
+  gap: 24px;
+}
+.pricingContent__title {
+  margin-top: 0;
+  margin-bottom: 90px;
+  font-size: 28px;
+  color: #35373C;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.pricingContent__item--content {
+  width: fit-content;
+  color: white;
+}
+.pricingContent__item--content--top {
+  background-color: #159bc0;
+  padding: 30px;
+}
+.pricingContent__item--price---description {
+  display: block;
+}
+.pricingContent__item--content--bottom {
+  padding: 30px;
+  background: #656972;
+  text-align: left;
+}
+.pricingContent__item--list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pricingContent__item--description {
+  max-width: 270px;
+}
+.pricingContent__item--title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+.pricingContent__item--description {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.pricingContent__item--price---icon {
+  font-size: 28px;
+}
+.pricingContent__item--price---text {
+  font-size: 46px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.pricingContent__item--price---description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.pricingContent__item--details {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.pricingContent__item--list---item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.pricingContent__item--list---item span {
+  display: inline-block;
+  font-size: 14px;
+}
+.pricingContent__item--list---item i {
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+/*# sourceMappingURL=style.css.map */

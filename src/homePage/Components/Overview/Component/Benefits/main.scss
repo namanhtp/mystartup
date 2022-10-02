@@ -1,0 +1,17 @@
+.benefits{
+    &__icon{
+        margin-bottom: 15px;
+    }
+
+    &__heading{
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__description{
+        max-width: 330px;
+        line-height: 1.5;
+    }
+}

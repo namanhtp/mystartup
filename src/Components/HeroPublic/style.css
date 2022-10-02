@@ -1,0 +1,69 @@
+.heroPublic {
+  position: relative;
+}
+.heroPublic__img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.heroPublic__overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0));
+}
+.heroPublic__content {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  top: 30%;
+  z-index: 6;
+  color: #fff;
+}
+.heroPublic__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.heroPublic__actions {
+  margin-top: 60px;
+}
+.heroPublic__text {
+  color: #fff;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.8;
+}
+.heroPublic__span--icon {
+  display: block;
+  opacity: 1;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  background: bisque;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.5;
+  position: relative;
+}
+.heroPublic__span--icon i {
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  color: black;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

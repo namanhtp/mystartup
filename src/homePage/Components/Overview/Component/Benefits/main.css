@@ -1,0 +1,15 @@
+.benefits__icon {
+  margin-bottom: 15px;
+}
+.benefits__heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.benefits__description {
+  max-width: 330px;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=main.css.map */
